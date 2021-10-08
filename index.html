@@ -206,33 +206,60 @@
                         </header>
                         <p align="justify">
                             <ul>
-                                <li><span class="version">v0.6.5</span> <span class="dataversion">(Apr 09, 2021)</span> - New features and some minor fixing:
+                                <li><span class="version">v0.6.11</span> <span class="dataversion">(Oct 8, 2021)</span>:
+                                    <ul>
+                                        <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;Management and persistence of Role, MFA and Profile</span></li>
+                                        <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;Import data from AwsSee</span></li>
+                                        <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;Organized functions to manage AWS Session info</span></li>
+                                    </ul>
+                                </li>
+                                <li><span class="version">v0.6.10</span> <span class="dataversion">(Oct 4, 2021)</span>:
+                                    <ul>
+                                        <li><span style="color: rgb(255, 124, 124);"><i class="fa fa-bug"></i></span><span class="describeversion">&nbsp;Configure the thread reuse for the local Navigator HTTP Thread Server</span></li>
+                                    </ul>
+                                </li>
+                                <li><span class="version">v0.6.9</span> <span class="dataversion">(Oct 4, 2021)</span>:
+                                    <ul>
+                                        <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;Enable to open Navigator from WSL Windows (linux) using Windows Browser</span></li>
+                                    </ul>
+                                </li>
+                                <li><span class="version">v0.6.8</span> <span class="dataversion">(Oct 4, 2021)</span>:
+                                    <ul>
+                                        <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;List the configured AWS credentials</span></li>
+                                    </ul>
+                                </li>
+                                <li><span class="version">v0.6.7</span> <span class="dataversion">(Aug 27, 2021)</span>:
+                                    <ul>
+                                        <li><span style="color: rgb(255, 124, 124);"><i class="fa fa-bug"></i></span> <span class="describeversion">&nbsp;Allow assume role without need a MFA set</span></li>
+                                    </ul>
+                                </li>    
+                                <li><span class="version">v0.6.5</span> <span class="dataversion">(Apr 09, 2021)</span>:
                                     <ul>
                                         <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;&nbsp;Function <b>groupByEc2</b>: It performs an aggregate function over EC2 Instances based in one of its attributes </span></li>
                                         <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;&nbsp;Function <b>findRouteEc2</b>: Given an Instance Id, it will trace all routes to reach to it using private/public Route 53 records, through ELB or IP Address </span></li>
                                     </ul>
                                 </li>
-                                <li><span class="version">v0.6.4</span> <span class="dataversion">(Mar 30, 2021)</span> - Bug fixing:
+                                <li><span class="version">v0.6.4</span> <span class="dataversion">(Mar 30, 2021)</span>:
                                     <ul>
                                         <li><span style="color: rgb(255, 124, 124);"><i class="fa fa-bug"></i></span> <span class="describeversion">&nbsp;Fixed feature hightlighting/filtering lines in tables views.</span></li>
                                     </ul>
                                 </li>
-                                <li><span class="version">v0.6.3</span> <span class="dataversion">(Mar 29, 2021)</span> - Bug fixing:
+                                <li><span class="version">v0.6.3</span> <span class="dataversion">(Mar 29, 2021)</span>:
                                     <ul>
                                         <li><span style="color: rgb(255, 124, 124);"><i class="fa fa-bug"></i></span> <span class="describeversion">&nbsp;Fixed DST problems regarding token expiration (MFA Session).</span></li>
                                     </ul>
                                 </li>
-                                <li><span class="version">v0.6.2</span> <span class="dataversion">(Mar 11, 2021)</span> - Boto3 library minimum required version:
+                                <li><span class="version">v0.6.2</span> <span class="dataversion">(Mar 11, 2021)</span>:
                                     <ul>
                                         <li><i class="fa fa-angle-double-right"></i></span> <span class="describeversion">&nbsp;Forcing update boto3 library to a specific minimum version (>=1.14.2) during installation.</span></li>
                                     </ul>
                                 </li>
-                                <li><span class="version">v0.6.1</span> <span class="dataversion">(Mar 05, 2021)</span> - Bug fixing:
+                                <li><span class="version">v0.6.1</span> <span class="dataversion">(Mar 05, 2021)</span>:
                                     <ul>
                                         <li><span style="color: rgb(255, 124, 124);"><i class="fa fa-bug"></i></span> <span class="describeversion">&nbsp;Falling to start, attempt to load a module not required for this version, experimental code removed.</span></li>
                                     </ul>
                                 </li>
-                                <li><span class="version">v0.6.0</span> <span class="dataversion">(Mar 04, 2021)</span> - New features: 
+                                <li><span class="version">v0.6.0</span> <span class="dataversion">(Mar 04, 2021)</span>: 
                                     <ul>
                                         <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;&nbsp;Generate an Excel spreadsheet from a result</span></li>
                                         <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;&nbsp;Generate a Graphic Diagram for DrawIo using CSV (Arrange --> Insert --> Advanced --> CSV...) - available for some commands</span></li>
@@ -244,17 +271,17 @@
                                         
                                     </ul>
                                 </li>    
-                                <li><span class="version">v0.5.32</span> <span class="dataversion">(Sept 23, 2020)</span> - Bug fixing:
+                                <li><span class="version">v0.5.32</span> <span class="dataversion">(Sept 23, 2020)</span>:
                                     <ul>
                                         <li><span style="color: rgb(255, 124, 124);"><i class="fa fa-bug"></i></span> <span class="describeversion">&nbsp;List EC2 crashing when there's an EC2 Instance "still" in terminated state.</span></li>
                                     </ul>
                                 </li>
-                                <li><span class="version">v0.5.31</span> <span class="dataversion">(Sept 18, 2020)</span> - Bug fixing:
+                                <li><span class="version">v0.5.31</span> <span class="dataversion">(Sept 18, 2020)</span>:
                                     <ul>
                                         <li><span style="color: rgb(255, 124, 124);"><i class="fa fa-bug"></i></span> <span class="describeversion">&nbsp;Navigator crashing when no Tags detected on Ec2 Instances.</span></li>
                                     </ul>
                                 </li>
-                                <li><span class="version">v0.5.30</span> <span class="dataversion">(Sept 18, 2020)</span> - First version released: 
+                                <li><span class="version">v0.5.30</span> <span class="dataversion">(Sept 18, 2020)</span>: 
                                     <ul>
                                         <li><i class="fa fa-angle-double-right"></i><span class="describeversion">&nbsp;&nbsp;Still lot of things to do, but let's share it anyway. There are 17 functions available.</span></li>
                                     </ul>
